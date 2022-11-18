@@ -404,7 +404,7 @@ All these pages with confusing, complicated URL path (due to organizing pages):
 /pages/member/group/EditMemberList.aspx
 /pages/departments/inventory/setup/InventoryCategory.aspx
 ```
-will now all shorten to:
+will now all being shorten to:
 ```
 /EditUser
 /AppConfig
