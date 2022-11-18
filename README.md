@@ -414,14 +414,14 @@ will now all being shorten to:
 /EditMemberList
 /InventoryCategory
 ```
-You just need to be careful not to repeat (re-use) the same filename in a different folder.
+You just need to be careful not to repeat (re-use) the same filename in different folders.
 
-For example:
+For example (don't do this):
 ```
 /pages/member/Search.aspx
 /pages/team/Search.aspx
 ```
-Instead of this, put the section name within the filename, like this:
+Instead, put the section name within the filename, like this:
 ```
 /pages/member/SearchMember.aspx
 /pages/team/SearchTeam.aspx
