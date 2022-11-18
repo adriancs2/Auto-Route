@@ -1,0 +1,51 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="AutoRoute.Site1" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+
+    <style type="text/css">
+        .divNav {
+            margin-bottom: 10px;
+        }
+
+            .divNav a {
+                text-decoration: none;
+                font-style: normal;
+                padding: 8px 12px;
+                border: 1px solid #0094ff;
+                color: #0094ff;
+            }
+
+                .divNav a:hover {
+                    background: #0094ff;
+                    color: white;
+                    text-decoration: none;
+                }
+    </style>
+
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <h1>The Demo Project of Automatic Page Routing</h1>
+
+    <div class="divNav">
+        <a href="/">Home</a>
+        <a href="/Invoice">Invoice</a>
+        <a href="/InvoiceEdit">Edit Invoice</a>
+        <a href="/Member">Search Member</a>
+        <a href="/MemberEdit">Edit Member</a>
+        <a href="/Settings">Settings</a>
+    </div>
+
+    <form id="form1" runat="server">
+        <div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+</body>
+</html>
