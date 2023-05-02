@@ -1,0 +1,16 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/Site1.Master" AutoEventWireup="true" CodeBehind="settings.master.cs" Inherits="AutoRouteTest.pages.settings.settings" %>
+<asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
+
+    <style type="text/css">
+        
+    </style>
+
+    <asp:ContentPlaceHolder ID="head" runat="server"></asp:ContentPlaceHolder>
+</asp:Content>
+<asp:Content ID="Content2" ContentPlaceHolderID="body" runat="server">
+    <h1>Settings</h1>
+    <div id="divMenu2">
+        <asp:PlaceHolder ID="ph1" runat="server"></asp:PlaceHolder>
+    </div>
+    <asp:ContentPlaceHolder ID="body" runat="server"></asp:ContentPlaceHolder>
+</asp:Content>

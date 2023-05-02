@@ -32,6 +32,10 @@
 <body>
     <h1>The Demo Project of Automatic Page Routing</h1>
 
+    Github: <a href="https://github.com/adriancs2/Auto-Route">https://github.com/adriancs2/Auto-Route</a><br />
+    Article: <a href="https://adriancs.com/aspnet-webforms/419/automatic-route-all-pages-in-asp-net-webforms/" target="_blank">adriancs.com</a> | 
+    <a href="https://www.codeproject.com/Articles/5346909/Automatic-Route-All-Pages-in-ASP-NET-WebForms" target="_blank">codeproject.com</a>
+    <br /><br />
     <div class="divNav">
         <a href="/">Home</a>
         <a href="/Invoice">Invoice</a>

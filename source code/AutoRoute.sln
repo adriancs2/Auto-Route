@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.4.33103.184
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoRoute", "AutoRoute\AutoRoute.csproj", "{9522AC2C-F735-4D9A-A742-BD0A360FAFA2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AutoRoute", "AutoRoute\AutoRoute.csproj", "{961F2B79-A3D1-4871-87A1-D34BE50F8452}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoRouteTest", "AutoRouteTest\AutoRouteTest.csproj", "{0A01C48C-A8FA-4EA2-9046-D914E5AFD094}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +13,14 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{9522AC2C-F735-4D9A-A742-BD0A360FAFA2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{9522AC2C-F735-4D9A-A742-BD0A360FAFA2}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{9522AC2C-F735-4D9A-A742-BD0A360FAFA2}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{9522AC2C-F735-4D9A-A742-BD0A360FAFA2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{961F2B79-A3D1-4871-87A1-D34BE50F8452}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{961F2B79-A3D1-4871-87A1-D34BE50F8452}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{961F2B79-A3D1-4871-87A1-D34BE50F8452}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{961F2B79-A3D1-4871-87A1-D34BE50F8452}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0A01C48C-A8FA-4EA2-9046-D914E5AFD094}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A01C48C-A8FA-4EA2-9046-D914E5AFD094}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A01C48C-A8FA-4EA2-9046-D914E5AFD094}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A01C48C-A8FA-4EA2-9046-D914E5AFD094}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,0 +1,81 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="AutoRouteTest.Site1" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+
+    <style type="text/css">
+        
+        @import url('https://fonts.googleapis.com/css2?family=Covered+By+Your+Grace&display=swap');
+
+        body {
+            padding: 0;
+            margin: 0;
+            font-family: 'Covered By Your Grace', cursive;
+            font-size: 13pt;
+        }
+
+        #divBody {
+            position: fixed;
+            left: 200px;
+            top: 0;
+        }
+
+        #divContent {
+            padding: 10px;
+        }
+
+        #divMenu1 {
+            position: fixed;
+            height: 100vh;
+            width: 200px;
+            background: #515151;
+        }
+
+            #divMenu1 a {
+                color: white;
+                display: block;
+                font-style: normal;
+                text-decoration: none;
+                padding: 10px;
+            }
+
+        #divMenu2 a {
+            color: white;
+            display: inline-block;
+            font-style: normal;
+            text-decoration: none;
+            padding: 10px 20px;
+        }
+
+        #divMenu2 {
+            background: #57448e;
+        }
+
+            #divMenu1 a:hover, #divMenu2 a:hover {
+                background: rgba(0,0,0,0.5);
+                text-decoration: none;
+            }
+    </style>
+
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+
+    <div id="divMenu1">
+        <a style="color: #9cff6f">Main Menu</a>
+        <asp:PlaceHolder ID="ph1" runat="server"></asp:PlaceHolder>
+    </div>
+
+    <div id="divBody">
+        <div id="divContent">
+            <asp:ContentPlaceHolder ID="body" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </div>
+
+</body>
+</html>
